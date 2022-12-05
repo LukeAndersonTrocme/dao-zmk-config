@@ -28,8 +28,8 @@
 //        | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  |   \  |
 //                           | RSE | ALT | LWR |   | LWR |  CTL | DEL |
                         bindings = <
-   &kp LWIN &kp ESC   &kp Q &kp W &kp E &kp R &kp T               &kp Y  &kp U  &kp I     &kp O   &kp P    &kp BSPC &trans
-            &kp TAB   &kp A &kp S &kp D &kp F &kp G               &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp SQT &trans
+            &kp ESC   &kp Q &kp W &kp E &kp R &kp T               &kp Y  &kp U  &kp I     &kp O   &kp P    &kp BSPC
+            &kp TAB   &kp A &kp S &kp D &kp F &kp G               &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp SQT
             &kp LSHFT &kp Z &kp X &kp C &kp V &kp B               &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSLH
                   &lt RSE LWIN &kp LALT &lt LWR RET               &lt LWR SPACE &kp RCTRL &lt RSE DEL
                         >;
