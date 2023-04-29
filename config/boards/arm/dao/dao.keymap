@@ -25,6 +25,10 @@
 };
 / {
 
+    aliases {
+        reset = &reset_key;
+    };
+
 
     behaviors {
         hm: homerow_mods {
