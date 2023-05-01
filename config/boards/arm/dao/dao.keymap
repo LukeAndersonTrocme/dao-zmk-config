@@ -36,7 +36,7 @@
   &kp TAB    &kp Q &kp W &kp E &kp R &kp T              &kp Y  &kp U  &kp I     &kp O   &kp P    &kp DEL
   &mt LALT   &kp A &kp S &kp D &kp F &kp G              &kp H  &kp J  &kp K     &kp L   &kp QUOT &mt RALT
   &mt LSFT   &kp Z &kp X &kp C &kp V &kp B              &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &sl ADJ
-         &kp LCTRL  &kp LGUI &lt LOWER TAB              &kp SPACE &lt RAISE BSPC &kp RGUI &kp RCTRL
+         &kp LCTRL  &kp LGUI &lt LWR TAB              &kp SPACE &lt RSE BSPC &kp RGUI &kp RCTRL
                         >;
                 };
                 lower_layer {
@@ -47,7 +47,7 @@
 //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
 // _______, XXXXXXX , KC_TILD,KC_GRV, KC_LBRC, KC_LCBR,                       KC_RCBR, KC_RBRC, KC_COMM,KC_DOT,  KC_SLSH, _______ ,
 //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-//                                      KC_TRNS,  KC_TRNS, LOWER,    KC_TRNS, KC_TRNS, KC_COLON
+//                                      KC_TRNS,  KC_TRNS, LWR,    KC_TRNS, KC_TRNS, KC_COLON
                                     //`--------------------------'  `--------------------------'
                         bindings = <
    &trans &kp UNDER      &kp F1   &kp F2 &kp F3   &kp F4   &kp F5           &kp F6    &kp F7   &kp F8   &kp F9   &kp F10  &kp F11 &mt RGUI F12
