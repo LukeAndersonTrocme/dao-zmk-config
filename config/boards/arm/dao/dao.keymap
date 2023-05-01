@@ -14,15 +14,22 @@
 #define RSE 2
 #define ADJ 3
 
-&lt { quick_tap_ms = <200>; };
-&mt {
-    flavor = "tap-preferred";
-    tapping_term_ms = <200>;
+/ {
+    config {
+        lt: lt {
+            quick_tap_ms = <200>;
+        };
+        mt: mt {
+            flavor = "tap-preferred";
+            tapping_term_ms = <200>;
+        };
+        mmv: mmv {
+            time-to-max-speed-ms = <680>;
+            acceleration-exponent=<2>;
+        };
+    };
 };
-&mmv {
-   time-to-max-speed-ms = <680>;
-   acceleration-exponent=<2>;
-};
+
 / {
     behaviors {
         hm: homerow_mods {
