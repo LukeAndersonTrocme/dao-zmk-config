@@ -13,7 +13,6 @@
 #define RSE 2
 #define ADJ 3
 
-&lt { quick_tap_ms = <200>; };
 &sl { release-after-ms = <200>; };  // Sticky Layer
 &mt { quick_tap_ms = <200>; };      // Momentary Tap
 
@@ -27,7 +26,7 @@
   &kp TAB    &kp Q &kp W &kp E &kp R &kp T              &kp Y  &kp U  &kp I     &kp O   &kp P    &kp DEL
             &kp LALT &kp A &kp S &kp D &kp F &kp G &kp H         &kp J  &kp K     &kp L   &kp QUOT &mt RALT SQT
             &kp LSFT  &kp Z &kp X &kp C &kp V &kp B &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &sl ADJ
-                         &lt RSE TAB &mt LSHFT SPACE &lt LWR RET &lt LWR ESC &mt RSHFT BSPC &lt RSE DEL
+                &kp LCTRL &mt RET LGUI &mt LWR TAB                    &kp SPACE &mt RSE BSPC &kp RGUI &kp RCTRL
                         >;
                 };
                 lower_layer {
@@ -35,7 +34,7 @@
    &trans &kp UNDER      &kp F1   &kp F2 &kp F3   &kp F4   &kp F5           &kp F6    &kp F7   &kp F8   &kp F9   &kp F10  &kp F11 &mt RGUI F12
           &mt LCTRL PLUS &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT        &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR &mt RCTRL MINUS
           &mt LALT EQUAL &kp N1   &kp N2 &kp N3   &kp N4   &kp N5           &kp N6    &kp N7   &kp N8   &kp N9   &kp N0   &trans
-                                              &lt ADJ TAB &trans &trans   &trans &trans &lt ADJ DEL
+                                              &mt ADJ TAB &trans &trans   &trans &trans &mt ADJ DEL
                         >;
                 };
 
@@ -44,7 +43,7 @@
    &trans &kp KP_NUM      &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS        &kp C_VOL_UP &kp HOME &kp PSCRN &kp PG_UP &kp SLCK &kp CAPS &trans
           &mt LCTRL EQUAL &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS         &kp C_MUTE   &kp LEFT &kp UP    &kp RIGHT &kp INS  &mt RCTRL K_APP
           &trans          &kp KP_N0       &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_DOT          &kp C_VOL_DN &kp END  &kp DOWN  &kp PG_DN &kp PAUSE_BREAK &trans
-                                                           &trans &trans &lt ADJ RET   &lt ADJ ESC &trans &trans
+                                                           &trans &trans &mt ADJ RET   &mt ADJ ESC &trans &trans
                         >;
                 };
                 adjust_layer {
